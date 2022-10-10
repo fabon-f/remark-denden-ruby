@@ -1,0 +1,25 @@
+{
+  "name": "remark-denden-ruby",
+  "version": "0.1.0",
+  "description": "remark plugin to support ruby annotation of DenDenMarkdown(https://conv.denshochan.com/markdown)",
+  "type": "module",
+  "exports": "./index.js",
+  "sideEffects": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "remark"
+  ],
+  "author": "fabon (https://www.fabon.info)",
+  "license": "MIT",
+  "devDependencies": {
+    "remark-html": "^15.0.1",
+    "remark-parse": "^10.0.1",
+    "unified": "^10.1.2"
+  },
+  "dependencies": {
+    "unist-builder": "^3.0.0",
+    "unist-util-visit": "^4.1.1"
+  }
+}
