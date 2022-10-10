@@ -2,6 +2,13 @@
 
 [remark](https://github.com/remarkjs/remark) plugin to support ruby syntax of [denden markdown](https://conv.denshochan.com/markdown).
 
+## Installation
+
+```sh
+# Of course you can use npm, yarn or other tools.
+pnpm add remark-denden-ruby
+```
+
 ## Usage
 
 ESM only.
