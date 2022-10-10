@@ -5,6 +5,10 @@
   "type": "module",
   "exports": "./index.js",
   "sideEffects": false,
+  "files": [
+    "index.js",
+    "test.js"
+  ],
   "scripts": {
     "test": "node test.js"
   },
