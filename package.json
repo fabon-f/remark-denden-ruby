@@ -1,7 +1,7 @@
 {
   "name": "remark-denden-ruby",
   "version": "0.1.0",
-  "description": "remark plugin to support ruby annotation of DenDenMarkdown(https://conv.denshochan.com/markdown)",
+  "description": "remark plugin to support ruby syntax of DenDenMarkdown(https://conv.denshochan.com/markdown)",
   "type": "module",
   "exports": "./index.js",
   "sideEffects": false,
