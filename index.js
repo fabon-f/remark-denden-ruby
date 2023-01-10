@@ -1,3 +1,7 @@
+/**
+ * @typedef {import('mdast').Root} Root
+ */
+
 import { visit } from 'unist-util-visit'
 import { u } from 'unist-builder'
 
@@ -46,6 +50,10 @@ function buildRubyAst(strs) {
   }
 }
 
+/**
+ *
+ * @type {import('unified').Plugin<void[], Root>}
+ */
 export default function plugin() {
   function transformer(tree) {
     visit(tree, 'text', (node, index, parent) => {
