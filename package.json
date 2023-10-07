@@ -21,15 +21,15 @@
   "author": "fabon (https://www.fabon.info)",
   "license": "MIT",
   "devDependencies": {
-    "remark-html": "^15.0.2",
-    "remark-parse": "^10.0.2",
-    "rimraf": "^5.0.1",
+    "remark-html": "^16.0.1",
+    "remark-parse": "^11.0.0",
+    "rimraf": "^5.0.5",
     "typescript": "^5.2.2",
     "uvu": "^0.5.6"
   },
   "dependencies": {
-    "@types/mdast": "^4.0.0",
-    "unified": "^11.0.2",
+    "@types/mdast": "^4.0.1",
+    "unified": "^11.0.3",
     "unist-builder": "^4.0.0",
     "unist-util-visit": "^5.0.0"
   }
