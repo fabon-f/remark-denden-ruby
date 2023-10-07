@@ -50,11 +50,10 @@ function buildRubyAst(strs) {
   }
 }
 
-/**
- *
- * @type {import('unified').Plugin<void[], Root>}
- */
 export default function plugin() {
+  /**
+   * @param {Root} tree
+   */
   function transformer(tree) {
     visit(tree, 'text', (node, index, parent) => {
       const nodes = scanRuby(node.value).map(e => {
